@@ -1,0 +1,28 @@
+{
+  "name": "node_backened",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.5.7",
+    "oauth-signature": "^1.5.0",
+    "oauth_nonce": "^1.0.0",
+    "path": "^0.12.7",
+    "query-string": "^6.12.1",
+    "react-loader-spinner": "^3.1.14",
+    "sentiment": "^5.0.2",
+    "skmeans": "^0.11.3",
+    "socket.io": "^2.3.0",
+    "twit": "^2.2.11",
+    "twitter": "^1.7.1"
+  }
+}
