@@ -24,8 +24,8 @@ app.use(function (req, res, next) {
     res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
     next();
 });
+app.use(express.static('public'));
 app.use(express.static(path.join(__dirname, './build')));
-
 var T = new Twit({
     consumer_key: keys.consumer_key,
     consumer_secret: keys.consumer_secret,
